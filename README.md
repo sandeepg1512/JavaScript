@@ -23,3 +23,8 @@ These are the assignments for the Blockchain course.
 2. Write a program to find whether a given number is armstrong number or not. The Armstrong number is a number that is equal to the sum of cubes of its digits. For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers. Let's try to understand why 153 is an Armstrong number. 153 = (111)+(555)+(333) where: (111)=1 (555)=125 (333)=27 So: 1+125+27=153
 
 3. Write a program to find whether a given number is special number or not. If the sum of the factorial of digits of a number (N) is equal to the number itself, the number (N) is called a special number. eg- 145 is a special number Logic- 1! + 4! + 5!= 1+24+120 i.e 145
+
+# JS-Assignment-04
+This assignment will help you interpret mathematical relationships both algebraically and geometrically. Refer the Link - https://drive.google.com/file/d/1mEBvdrL_pJvI8o-OsbRWSJevVbAhZrOf/view . Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above. Take input from the user in the function parameter and return the output using the return statement.
+
+examples- matchHouses(1) ➞ 6 matchHouses(4) ➞ 21 matchHouses(87) ➞ 436
