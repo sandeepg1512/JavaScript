@@ -28,3 +28,15 @@ These are the assignments for the Blockchain course.
 This assignment will help you interpret mathematical relationships both algebraically and geometrically. Refer the Link - https://drive.google.com/file/d/1mEBvdrL_pJvI8o-OsbRWSJevVbAhZrOf/view . Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above. Take input from the user in the function parameter and return the output using the return statement.
 
 examples- matchHouses(1) ➞ 6 matchHouses(4) ➞ 21 matchHouses(87) ➞ 436
+
+# JS-Assignment-05
+Write a JavaScript program to get the volume of a Cylinder, Sphere and Cone with four decimal places using objects and classes. Create classes for volumes for each geometric shape which returns the output using the getVolume() method.
+eg- to get volume of cylinder- let obj= new Cylinder(radius,height); obj.getVolume();
+
+Formulas for volumes of the shapes-
+
+1. Cylinder- Volume = πr^2h where r is the radius and h is the height of the cylinder.
+
+2. Sphere- Volume= 4/3πr^3 where r is the radius
+
+3. Cone- Volume= πr^2h/3 where r is the radius and h is the height of the cone.
