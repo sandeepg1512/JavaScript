@@ -1,0 +1,2 @@
+Q. Can we put duplicate values in the set object ?
+Ans: No, we can not. Set value should be unique.
