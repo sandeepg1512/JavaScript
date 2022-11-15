@@ -1,0 +1,5 @@
+What is the difference between a closure and a scope ?
+
+When you declare a variable in a function, you can only access it in the function. These variables are said to be scoped to the function.
+
+Whenever you create a function within another function, then the inner function is closure. This closure is usually returned so you can use the outer function’s variables at a later time. Whereas a scope in JavaScript defines what variables you have access to. There are two kinds of scope – global scope and local scope.

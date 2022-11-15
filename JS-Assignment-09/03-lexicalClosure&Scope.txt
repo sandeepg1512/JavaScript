@@ -1,0 +1,4 @@
+What is a lexical scope and how is it related to closure?
+
+Solution: 
+closer Return the function along with the variable which is in lexical scope. Closer is a function with its lexical scope
