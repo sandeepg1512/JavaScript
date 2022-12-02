@@ -1,0 +1,12 @@
+Give an example of a Higher Order function and a call back function used in the same program.
+Sol- The example below "sendRequest" is Passed to "add" function. So "add" function is Higher Order Function and the "handle" is callback function. 
+function add(a, b, handle){
+    let result = a + b;
+    handle(result);
+}
+
+function sendRequest(result){
+    console.log("Sending data to server ", result);
+}
+
+add(4, 5, sendRequest);

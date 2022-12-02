@@ -1,0 +1,15 @@
+Are Higher Order functions and Call back functions the same ? If not,
+briefly explain about both functions.
+
+They are not the same. Passed function is called callback function. Where as the function  where we are passing the callback function a higher order function.
+
+Eg- function add(a, b, handle){ // handle is callback function 
+    let result = a + b;
+    handle(result);
+}
+
+function sendRequest(result){
+    console.log("Sending data to server ", result);
+}
+
+add(4, 5, sendRequest); // add is higher order function 

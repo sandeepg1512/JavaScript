@@ -1,0 +1,3 @@
+Is filter a Higher Order function in Javascript? If yes, why ?
+
+Solution: Yes, because we pass a callback function inside the filter function 
